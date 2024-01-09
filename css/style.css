@@ -5,8 +5,177 @@
     box-sizing: border-box;
 }
 
-.container{
+body{
+    width: 100%;
+}
+
+/* navbar */
+#navbar{
     display: flex;
+    justify-content: space-between;
+    padding: 16px 30px;
+
+    background-color: #0084fd;
+    color: white;
+}
+/* fine navbar */
+
+/* demo */
+#demo{
+    background-color: white;
+}
+#demo .cards{
+    margin: 50px 0px 80px;
+}
+
+#demo .card{
+    height: 600px;
+    /* test */
+    margin: 0px 32px 24px;
+
+    border-radius: 15px;
+    background-color: #b5ddff;
+}
+/* fine demo */
+
+/* planning */
+#planning{
+    background-color: #9792e4;
+}
+.app-developement .card{
+    height: 600px;
+    /* test */
+
+    margin: 22px 32px 60px;
+
+    border-radius: 40px;
+    background-color: white;
+}
+
+/* test */
+.strategic-plane, .app-developement{
+    height: 700px;
+    border: 1px solid beige;
+}
+/* test */
+
+
+/* fine planning */
+
+/* testimonial */
+#testimonial{
+    margin-bottom: 110px;
+
+    background-color: white;
+}
+
+.testimonial-text{
+    height: 455px;
+    width: 100%;
+    /* test */
+}
+
+.testimonial-cards .card{
+    height: 500px;
+    /* test */
+    margin: 0px 32px 32px;
+
+
+    background-color: #9792e4;
+}
+/* fine testimonial */
+
+/* benefit */
+#benefit{
+    padding-bottom: 64px;
+
+    background-color: #9792e4;
+    color: white;
+}
+.benefit-text{
+    text-align: center;
+    
+    padding: 54px 32px;
+}
+
+.benefit-cards .card{
+    height: 400px;
+    /* test */
+    margin: 0px 32px;
+    margin-bottom: 32px;
+
+    border-radius: 15px;
+    background-color: white;
+}
+/* fine benefit */
+
+/* about us */
+#about-us{
+    margin: 0px 32px;
+    background-color: white;
+}
+.about-us-text{
+    height: 950px;
+    /* test */
+
+    margin-top: 90px;
+}.about-us-img{
+    height: 450px;
+    margin-bottom: 50px;
+    background-color: aquamarine
+    /* test */
+}
+/* fine about us */
+
+/* get started */
+#get-started{
+    height: 600px;
+    /* test */
+
+    background-color: #9792e4;
+}
+/* fine get started */
+
+/* footer */
+footer{
+    height: 230px;
+    /* test */
+    
+    background-color: #333333;
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px){
+
+}
