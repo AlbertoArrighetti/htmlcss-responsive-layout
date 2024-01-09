@@ -179,8 +179,6 @@ footer{
         /* test */
     
         margin: 44px 64px 0px;
-    
-        border-radius: 40px;
     }
     .strategic-plane, .app-developement{
         height: 1400px;
@@ -251,5 +249,55 @@ footer{
     /* footer */
     footer{
         height: 440px;
+    }
+}
+
+
+
+
+
+
+
+/* laptop */
+@media screen and (min-width: 992px){
+    /* planning */
+    #planning .container{
+        display: flex;
+    }
+    .app-developement{
+        display: flex;
+        align-items: flex-end;
+    }
+    .app-developement .card{
+        height: 600px;
+        /* test */
+        width: 100%;
+    
+        margin: 44px 64px 200px;
+    }
+    .strategic-plane, .app-developement{
+        height: 1400px;
+        /* test */
+        width: 50%;
+    }
+
+    /* benefit */
+    #benefit{
+        padding-bottom: 124px;
+    }
+    .benefit-text{
+        padding: 152px 300px;
+    }
+    .benefit-cards{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 64px;
+    }
+    .benefit-cards .card{
+        height: 800px;
+        /* test */
+        width: calc(100% / 3 - 64px - 32px);
+        margin: 0;
     }
 }
