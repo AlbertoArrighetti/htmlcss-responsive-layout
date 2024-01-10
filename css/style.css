@@ -212,21 +212,6 @@ body{
 /* fine testimonial */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* benefit */
 #benefit{
     padding-bottom: 64px;
@@ -236,20 +221,60 @@ body{
 }
 .benefit-text{
     text-align: center;
+    font-size: 22px;
+    font-weight: bold;
     
     padding: 54px 32px;
 }
-
 .benefit-cards .card{
-    height: 400px;
-    /* test */
     margin: 0px 32px;
     margin-bottom: 32px;
+    padding: 0px 28px;
 
     border-radius: 15px;
     background-color: white;
+    color: black;
+}
+.benefit-cards .number{
+    padding: 36px 0;
+
+    color: #9792e4;
+    font-weight: bold;
+    font-size: 30px;
+}
+.benefit-cards .sub-title{
+    margin-bottom: 30px;
+
+    color: #9792e4;
+    font-weight: bold;
+}
+.benefit-cards p{
+    margin-bottom: 30px;
+
+    font-size: 12px;
+    line-height: 1.8;
+}
+.benefit-cards .more-btn{
+    padding-bottom: 40px;
+}
+.benefit-cards a{
+    padding: 12px 40px;
+
+    font-size: 12px;
+    text-decoration: none;
+    border-radius: 25px;
+    color: white;
+    background-color: #9792e4;
 }
 /* fine benefit */
+
+
+
+
+
+
+
+
 
 /* about us */
 #about-us{
@@ -268,6 +293,17 @@ body{
     /* test */
 }
 /* fine about us */
+
+
+
+
+
+
+
+
+
+
+
 
 /* get started */
 #get-started{
@@ -358,37 +394,12 @@ footer{
         margin-left: 16px;
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     /* benefit */
     #benefit{
-        padding-bottom: 124px;
+        padding-bottom: 90px;
     }
     .benefit-text{
-        padding: 152px 300px;
+        font-size: 40px;
     }
     .benefit-cards{
         display: flex;
@@ -397,8 +408,6 @@ footer{
         gap: 64px;
     }
     .benefit-cards .card{
-        height: 800px;
-        /* test */
         width: calc(50% - 64px - 32px);
         margin: 0;
     }
@@ -443,6 +452,16 @@ footer{
         margin-top: 200px;
     }
 
+
+
+
+
+
+
+
+
+
+    
     /* get started */
     #get-started{
         height: 1200px;
@@ -524,43 +543,33 @@ footer{
         margin-left: 30px;
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     /* benefit */
     #benefit{
-        padding-bottom: 124px;
+        padding-bottom: 90px;
     }
     .benefit-text{
-        padding: 152px 300px;
-    }
-    .benefit-cards{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 64px;
+        font-size: 40px;
     }
     .benefit-cards .card{
-        height: 800px;
-        /* test */
         width: calc(100% / 3 - 64px - 32px);
         margin: 0;
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
