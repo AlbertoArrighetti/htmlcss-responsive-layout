@@ -7,6 +7,8 @@
 
 body{
     width: 100%;
+    
+    font-family: 'PT Sans', sans-serif;
 }
 
 
@@ -84,35 +86,63 @@ body{
 /* fine demo */
 
 
-
-
-
-
-
-
-
 /* planning */
 #planning{
     background-color: #9792e4;
+    padding-bottom: 60px;
+}
+.strategic-plane{
+    display: flex;
+    flex-direction: column;
+
+    padding: 60px 32px 32px;
+}
+.strategic-plane img{
+    width: 100%;
+    margin-bottom: 80px;
+}
+.strategic-plane .title{
+    color: white;
+    font-size: 32px;
+    margin-bottom: 50px;
+}
+.strategic-plane p{
+    color: white;
 }
 .app-developement .card{
-    height: 600px;
-    /* test */
-
-    margin: 22px 32px 60px;
+    margin: 0px 32px;
 
     border-radius: 40px;
     background-color: white;
 }
-
-/* test */
-.strategic-plane, .app-developement{
-    height: 700px;
-    border: 1px solid beige;
+.app-developement img{
+    width: 100%;
 }
-/* test */
+.app-developement .small-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.small-container .title{
+    margin: 26px 0px;
+    font-weight: 700;
+}
+.small-container p{
+    padding: 0 26px 40px;
+}
+.small-container .dowload {
+    margin-bottom: 32px;
+}
+.dowload a{
+    padding: 16px;
 
-
+    border-radius: 50%;
+    color: black;
+    background-color: #9792e4;
+}
+.dowload .fa-solid{
+    font-size: 18px;
+}
 /* fine planning */
 
 
@@ -147,6 +177,22 @@ body{
     background-color: #9792e4;
 }
 /* fine testimonial */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* benefit */
 #benefit{
@@ -244,29 +290,16 @@ footer{
 
         margin-left: 20px;
     }
-    
-
-
-
-
-
-
-
-
-
     /* planning */
     .app-developement .card{
-        height: 1200px;
-        /* test */
-    
         margin: 44px 64px 0px;
     }
-    .strategic-plane, .app-developement{
-        height: 1400px;
-        /* test */
+    .strategic-plane .title{
+        font-size: 78px;
     }
-
-
+    .small-container .title{
+        font-size: 26px;
+    }
 
 
 
@@ -288,6 +321,17 @@ footer{
         /* test */
         margin: 0px 64px 62px;
     }
+
+
+
+
+
+
+
+
+
+
+
 
     /* benefit */
     #benefit{
@@ -380,40 +424,26 @@ footer{
         margin-left: 0;
         margin-right: 50px;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
     /* planning */
     #planning .container{
         display: flex;
+    }
+    .strategic-plane{
+        margin-left: 10%;
     }
     .app-developement{
         display: flex;
         align-items: flex-end;
     }
     .app-developement .card{
-        height: 600px;
-        /* test */
-        width: 100%;
-    
-        margin: 44px 64px 200px;
+        width: 60%;
     }
     .strategic-plane, .app-developement{
-        height: 1400px;
-        /* test */
         width: 50%;
     }
-
+    .strategic-plane .title{
+        font-size: 28px;
+    }
 
 
 
