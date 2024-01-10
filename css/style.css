@@ -14,13 +14,14 @@ p{
 
 /* navbar */
 #navbar{
+    background-color: #0084fd;
+    color: white;
+}
+#navbar .flexnav{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 16px 30px;
-
-    background-color: #0084fd;
-    color: white;
 }
 #navbar .nav-links .fa-solid{
     font-size: 24px;
@@ -269,6 +270,7 @@ p{
 }
 /* fine benefit */
 
+
 /* about us */
 #about-us{
     margin: 0px 32px;
@@ -333,22 +335,56 @@ p{
 /* fine about us */
 
 
-
-
-
-
-
-
-
-
-
-
 /* get started */
 #get-started{
-    height: 600px;
-    /* test */
-
     background-color: #9792e4;
+    color: white;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#get-started .title{
+    font-size: 10px;
+    padding: 60px 0 26px;
+}
+#get-started .subtitle{
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+#get-started .yellow-text{
+    margin-bottom: 40px;
+
+    font-size: 34px;
+    font-weight: bold;
+    color: #fdc15f;
+}
+#get-started p{
+    text-align: center;
+    margin: 0 32px 32px; 
+}
+.btn-white{
+    padding: 10px 70px;
+    margin-bottom: 30px;
+
+    border-radius: 40px;
+    color: #9792e4;
+    background-color: white;
+}
+.btn-white a{
+    text-decoration: none;
+}
+.copyright{
+    margin: 0 50px 60px;
+    font-size: 10px;
+}
+.copyright .fa-solid{
+    font-size: 4px;
+    margin: 0 3px;
+}
+.copyright a{
+    color: white;
 }
 /* fine get started */
 
@@ -494,24 +530,19 @@ footer{
         font-size: 80px;
     }
 
-
-
-
-
-
-
-
-
-
-
     /* get started */
-    #get-started{
-        height: 1200px;
-        /* test */
+    #get-started .subtitle{
+        font-size: 30px;
     }
-
-
-
+    #get-started .yellow-text{
+        font-size: 54px;
+    }
+    #get-started p {
+        margin: 0 140px 32px;
+    }
+    .btn-white{
+        padding: 20px 70px;
+    }
 
 
 
@@ -589,11 +620,6 @@ footer{
     }
 
     /* testimonials */
-    .testimonial-cards{
-        width: 80%;
-        margin-left: auto;
-        margin-right: auto;
-    }
     .testimonial-cards .text-container{
         margin-left: 30px;
     }
@@ -636,4 +662,24 @@ footer{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+    .border-box{
+        max-width: 1140px;
+        width: 100%;
+    
+        margin: 0 auto;
+    }
 }
+
+    
