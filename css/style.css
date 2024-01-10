@@ -29,13 +29,6 @@ body{
 /* fine navbar */
 
 
-
-
-
-
-
-
-
 /* demo */
 #demo{
     background-color: white;
@@ -45,14 +38,58 @@ body{
 }
 
 #demo .card{
-    height: 600px;
-    /* test */
     margin-bottom: 24px;
 
     border-radius: 15px;
     background-color: #b5ddff;
 }
+#demo .card.sml{
+    text-align: center;
+}
+#demo .card.sml p{
+    padding: 0px 30px 40px;
+}
+#demo .card .text-container{
+    padding: 34px 28px;
+}
+#demo .title{
+    margin-bottom: 34px;
+    font-weight: bold;
+    color: #0084fd;
+}
+.text-container p{
+    margin-bottom: 40px;
+}
+.text-container .btn a{
+    padding: 10px 48px;
+
+    border-radius: 50px;
+
+    text-decoration: none;
+    color: white;
+    background-color: #0084fd;
+}
+.img-container {
+    display: flex;
+    justify-content: center;
+}
+.img-container img{
+    width: 200px;
+}
+#demo .card .fa-solid{
+    margin: 30px 0px;
+    font-size: 80px;
+    color: #0084fd;
+}
 /* fine demo */
+
+
+
+
+
+
+
+
 
 /* planning */
 #planning{
@@ -77,6 +114,16 @@ body{
 
 
 /* fine planning */
+
+
+
+
+
+
+
+
+
+
 
 /* testimonial */
 #testimonial{
@@ -176,24 +223,9 @@ footer{
     #navbar .nav-links .fa-solid{
         font-size: 40px;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     /* demo */
     #demo .cards{
-        margin: 100px 62px 200px;
+        margin: 50px 62px 100px;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -207,6 +239,20 @@ footer{
 
         margin-bottom: 0;
     }
+    .img-container {
+        justify-content: flex-start;
+
+        margin-left: 20px;
+    }
+    
+
+
+
+
+
+
+
+
 
     /* planning */
     .app-developement .card{
@@ -219,6 +265,15 @@ footer{
         height: 1400px;
         /* test */
     }
+
+
+
+
+
+
+
+
+
 
     /* testimonial */
     #testimonial{
@@ -294,6 +349,7 @@ footer{
 
 /* laptop */
 @media screen and (min-width: 992px){
+    /* navbar */
     #navbar .nav-links .fa-solid{
         display: none;
     }
@@ -313,6 +369,16 @@ footer{
         border-radius: 40px;
         background-color: white;
         color: black;
+    }
+    /* demo */
+    #demo .card:first-of-type{
+        display: flex;
+    }
+    .img-container {
+        display: flex;
+        align-items: flex-end;
+        margin-left: 0;
+        margin-right: 50px;
     }
 
 
@@ -347,6 +413,16 @@ footer{
         /* test */
         width: 50%;
     }
+
+
+
+
+
+
+
+
+
+
 
     /* benefit */
     #benefit{
